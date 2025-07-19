@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+
+Hi there!
+I hope this resume/cv has done a good job of showcasing my skills and experience.
+If you have any questions or would like to discuss my qualifications further, please feel free to reach out.
+If it looks like I might not have the skills you're looking for, please don't hesitate to let me know.
+I'm always eager to learn and grow, and I'm happy to take on new challenges.
+
+Thank you for your time and consideration!
+Stuart Russell
+
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stuart Russell CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'>
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse-subtle {
+
+            0%,
+            100% {
+                opacity: 0.8;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+
+        .animate-pulse-subtle {
+            animation: pulse-subtle 2s ease-in-out infinite;
+        }
+
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .skill-bar {
+            transition: all 0.8s ease-out;
+            transform-origin: left;
+        }
+
+        .skill-bar:hover {
+            transform: scaleX(1.05);
+        }
+
+        .section-card {
+            transition: all 0.3s ease;
+        }
+
+        .section-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+                0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+
+    <body
+        class="min-h-screen bg-gradient-to-tl from-[#1e293b] via-[#6366f1] to-[#71717a] text-white font-sans overflow-x-hidden">
+        <!-- Background Animation -->
+        <div class="fixed inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-3/4 right-1/4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-subtle"
+                style="animation-delay: 1s;"></div>
+            <div class="absolute bottom-1/4 left-1/2 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-subtle"
+                style="animation-delay: 2s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-4xl mx-auto p-4 sm:p-6 space-y-6 sm:space-y-8">
+            <!-- Header Section -->
+            <header class="text-center py-8 sm:py-12 animate-fade-in-up">
+                <h1 class="text-3xl sm:text-5xl font-bold mb-2 text-white drop-shadow-lg">Stuart Russell</h1>
+                <p class="text-lg sm:text-xl text-slate-300 mb-4">Software Developer</p>
+                <div
+                    class="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-2 sm:space-y-0 text-sm">
+                    <span class="flex items-center space-x-2">
+                        <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                        <span>stuart.russell@protonmail.com</span>
+                    </span>
+                    <span class="flex items-center space-x-2">
+                        <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                        <span>(+44)7397 111 384</span>
+                    </span>
+                    <span class="flex items-center space-x-2">
+                        <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                        <span>Glasgow, UK</span>
+                    </span>
+                </div>
+                <section class="rounded-2xl p-6 sm:p-8 animate-fade-in-up" style="animation-delay: 0.2s;">
+                    <p class="text-slate-300 text-sm">
+                        I currently reside in Glasgow, Scotland however, I am actively working towards relocating to
+                        Nova Scotia, Canada.
+                    </p>
+                </section>
+            </header>
+
+            <!-- Main Content Grid -->
+            <div class="grid lg:grid-cols-3 gap-6 lg:gap-8">
+                <!-- Left Column -->
+                <div class="lg:col-span-2 space-y-6 lg:space-y-8 min-w-0">
+                    <!-- About Section -->
+                    <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up"
+                        style="animation-delay: 0.2s;">
+                        <h2 class="text-xl sm:text-2xl font-bold mb-4 flex items-center">
+                            <div
+                                class="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-400 rounded-lg mr-3 flex items-center justify-center">
+                                <i class="fas fa-user text-white text-sm"></i>
+                            </div>
+                            About Me
+                        </h2>
+                        <p class="text-slate-300 leading-relaxed">
+                            Experienced Software Engineer with
+                            over 9 years of building reliable,
+                            scalable systems across diverse domains
+                            including statistical data processing,
+                            financial and investment technology,
+                            and cloud-based SaaS platforms. Well-
+                            versed in microservice architectures on
+                            AWS, with a solid track record of
+                            designing and delivering backend
+                            services that support complex, data-
+                            driven applications. Brings a thoughtful,
+                            pragmatic approach to problem-solving,
+                            with a focus on writing maintainable
+                            code, improving system performance,
+                            and aligning technical solutions with
+                            business goals. Comfortable working
+                            independently or as part of a
+                            collaborative, cross-functional team.
+                        </p>
+                    </section>
+
+                    <!-- Experience Section -->
+                    <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up"
+                        style="animation-delay: 0.4s;">
+                        <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+                            <div
+                                class="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-400 rounded-lg mr-3 flex items-center justify-center">
+                                <i class="fas fa-briefcase text-white text-sm"></i>
+                            </div>
+                            Experience
+                        </h2>
+
+                        <div class="space-y-6 sm:space-y-8">
+                            <div class="relative pl-6 sm:pl-8 border-l-2 border-purple-400">
+                                <div class="absolute -left-2 top-0 w-4 h-4 bg-purple-400 rounded-full"></div>
+                                <div class="mb-4">
+                                    <h3 class="text-lg sm:text-xl font-semibold text-white">Software Engineer</h3>
+                                    <p class="text-purple-300 font-medium">Gousto - Remote</p>
+                                    <p class="text-sm text-slate-400">2022 - Present</p>
+                                </div>
+                                <ul class="text-slate-300 space-y-2 text-sm">
+                                    As one of the earliest members of Gousto’s internal startup, Bento,
+                                    contributed to the ground-up redevelopment of Gousto’s legacy
+                                    monolithic system into a modern, modular SaaS platform for e-commerce
+                                    subscriptions. Played a key role in designing, testing, and implementing
+                                    core components of the platform, with a focus on multi-tenancy, scalability,
+                                    reliability, and
+                                    maintainability. The Bento solution now powers multiple online merchants,
+                                    including Gousto’s expansion into new markets such as Ireland, where the
+                                    entire operation runs exclusively on Bento’s architecture.
+                                    <br>
+                                    <li>
+                                        • Designed, tested, and maintained scalable, high-performance solutions using
+                                        AWS
+                                    </li>
+                                    <li>
+                                        • Collaborated closely with engineers, designers, and product owners to define
+                                        requirements, align
+                                        on technical direction, and to design and deliver well-integrated features
+                                    </li>
+                                    <li>
+                                        • Wrote clean, efficient, and testable code with a focus on scalability,
+                                        maintainability, and
+                                        adherence to modern software development best practices
+                                    </li>
+                                    <li>
+                                        • Contributed to hiring efforts by leading interviews assessing programming
+                                        proficiency and
+                                        technical design
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="relative pl-6 sm:pl-8 border-l-2 border-blue-400">
+                                <div class="absolute -left-2 top-0 w-4 h-4 bg-blue-400 rounded-full"></div>
+                                <div class="mb-4">
+                                    <h3 class="text-lg sm:text-xl font-semibold text-white">Software Developer</h3>
+                                    <p class="text-blue-300 font-medium">JP Morgan Chase - Glasgow</p>
+                                    <p class="text-sm text-slate-400">2018 - 2022</p>
+                                </div>
+                                <ul class="text-slate-300 space-y-2 text-sm">
+                                    Developed and maintained data pipelines within the Valuation Control
+                                    Group to support accurate, reliable, and high-performance asset
+                                    valuations for commodities. These pipelines were critical for producing
+                                    valuation data used by both traders and regulatory bodies to assess the
+                                    market value of the bank’s holdings. Ensured data integrity and timeliness
+                                    across complex financial datasets, contributing to compliance, risk
+                                    assessment, and informed trading decisions.
+                                    <br>
+                                    <li>
+                                        • Building and supporting data pipelines for price valuation, model calibration,
+                                        and price
+                                        adjustments
+                                    </li>
+                                    <li>
+                                        • Writing clean, reusable, and testable code while adhering to best practices
+                                        and maintaining high
+                                        code quality
+                                    </li>
+                                    <li>
+                                        • Collaborating with stakeholders to understand business needs and develop
+                                        solutions that meet
+                                        specifications, quality standards, and deadlines
+                                    </li>
+                                    <li>
+                                        • Advocating best practices within my development team and fostering knowledge
+                                        sharing across the
+                                        wider VCG developer community through presentations on my workstream and tool
+                                    </li>
+                                    <li>
+                                        • Provided onboarding support to new and junior developers to accelerate their
+                                        familiarity with the
+                                        platform, development processes, and technologies
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="relative pl-6 sm:pl-8 border-l-2 border-violet-400">
+                                <div class="absolute -left-2 top-0 w-4 h-4 bg-violet-400 rounded-full"></div>
+                                <div class="mb-4">
+                                    <h3 class="text-lg sm:text-xl font-semibold text-white">Software Developer</h3>
+                                    <p class="text-violet-300 font-medium">QA Consulting (Office for National Stastics)
+                                        - Newport</p>
+                                    <p class="text-sm text-slate-400">2016 - 2018</p>
+                                </div>
+                                <ul class="text-slate-300 space-y-2 text-sm">
+                                    Developed a data transformation pipeline integrating VAT and business
+                                    returns data to improve the accuracy of GDP calculations. Contributed to
+                                    the Data Access Platform project by designing and implementing a
+                                    Statistical Methods Library (SML) to provide Methodologists and Data
+                                    Scientists with a standardized, centralized toolkit for data analysis and
+                                    process development. Built a user-friendly platform enabling both
+                                    exploratory and production use of the SML, supporting more efficient and
+                                    consistent statistical workflows.
+                                    <br>
+                                    <li>
+                                        • Implemented key statistical modules using Scala and built wrappers in
+                                        various languages to facilitate broader usage
+                                    </li>
+                                    <li>
+                                        • Built scalable statistical transformation functions and libraries
+                                        optimized for large dataset performance
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Right Column -->
+                <div class="space-y-6 lg:space-y-8">
+                    <!-- Technologies Section -->
+                    <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up"
+                        style="animation-delay: 0.3s;">
+                        <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+                            <div
+                                class="w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-lg mr-3 flex items-center justify-center">
+                                <i class="fas fa-code text-white text-sm"></i>
+                            </div>
+                            Tech
+                        </h2>
+
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm font-medium">TypeScript/JavaScript</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="skill-bar bg-gradient-to-r from-blue-400 to-cyan-400 h-2 rounded-full"
+                                        style="width: 95%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm font-medium">AWS/Cloud</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="skill-bar bg-gradient-to-r from-blue-400 to-cyan-400 h-2 rounded-full"
+                                        style="width: 95%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm font-medium">Python</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="skill-bar bg-gradient-to-r from-cyan-400 to-sky-400 h-2 rounded-full"
+                                        style="width: 90%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm font-medium">React/Next.js</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="skill-bar bg-gradient-to-r from-sky-400 to-emerald-400 h-2 rounded-full"
+                                        style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm font-medium">PHP/Laravel</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="skill-bar bg-gradient-to-r from-emerald-400 to-indigo-400 h-2 rounded-full"
+                                        style="width: 50%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm font-medium">Docker</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="skill-bar bg-gradient-to-r from-indigo-400 to-violet-400 h-2 rounded-full"
+                                        style="width: 50%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm font-medium">Scala</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="skill-bar bg-gradient-to-r from-violet-400 to-rose-400 h-2 rounded-full"
+                                        style="width: 50%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-sm font-medium">Java</span>
+                                </div>
+                                <div class="w-full bg-slate-700 rounded-full h-2">
+                                    <div class="skill-bar bg-gradient-to-r from-rose-400 to-pink-400 h-2 rounded-full"
+                                        style="width: 40%">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- Skills Section -->
+                    <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up"
+                        style="animation-delay: 0.7s;">
+                        <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+                            <div
+                                class="w-8 h-8 bg-gradient-to-r from-orange-400 to-red-400 rounded-lg mr-3 flex items-center justify-center">
+                                <i class="fas fa-tools text-white text-sm"></i>
+                            </div>
+                            Skills
+                        </h2>
+
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-blue-400 rounded-full"></div>
+                                <span class="text-sm">Adaptability and willingness to learn</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-cyan-400 rounded-full"></div>
+                                <span class="text-sm">Automated testing and test-driven development</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-sky-400 rounded-full"></div>
+                                <span class="text-sm">Code review and refactoring</span>
+                            </div>
+
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-indigo-400 rounded-full"></div>
+                                <span class="text-sm">Cross-functional collaboration with product managers</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-emerald-400 rounded-full"></div>
+                                <span class="text-sm">Effective communication and collaboration</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-violet-400 rounded-full"></div>
+                                <span class="text-sm">Facilitating knowledge sharing and promoting continuous
+                                    Learning</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-rose-400 rounded-full"></div>
+                                <span class="text-sm">Guiding architectural decisions and technical roadmaps</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-sky-400 rounded-full"></div>
+                                <span class="text-sm">Leading technical design and code reviews to ensure high
+                                    quality</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-red-400 rounded-full"></div>
+                                <span class="text-sm">Microservice architecture and RESTTul APIs</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-pink-400 rounded-full"></div>
+                                <span class="text-sm">Problem solving and analytical thinking</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-1 h-1 bg-purple-400 rounded-full"></div>
+                                <span class="text-sm">Project and time management with a focus on delivery and
+                                    quality</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Education Section -->
+                    <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up"
+                        style="animation-delay: 0.5s;">
+                        <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+                            <div
+                                class="w-8 h-8 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-lg mr-3 flex items-center justify-center">
+                                <i class="fas fa-graduation-cap text-white text-sm"></i>
+                            </div>
+                            Education
+                        </h2>
+
+                        <div class="space-y-4">
+                            <div class="border-l-2 border-indigo-400 pl-4">
+                                <h3 class="font-semibold text-white">BA 3D Computer Animation (Hons)</h3>
+                                <p class="text-indigo-300 text-sm">Glasgow Caledonian University</p>
+                                <p class="text-slate-400 text-xs">2012 - 2016</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Contact Section -->
+                    <section class="glassmorphism rounded-2xl p-6 sm:p-8 section-card animate-fade-in-up"
+                        style="animation-delay: 0.8s;">
+                        <h2 class="text-xl sm:text-2xl font-bold mb-6 flex items-center">
+                            <div
+                                class="w-8 h-8 bg-gradient-to-r from-rose-400 to-pink-400 rounded-lg mr-3 flex items-center justify-center">
+                                <i class="fas fa-link text-white text-sm"></i>
+                            </div>
+                            Connect
+                        </h2>
+
+                        <div class="space-y-4">
+                            <a href="https://linkedin.com/in/srussell91"
+                                class="flex items-center space-x-3 text-sm hover:text-blue-400 transition-colors">
+                                <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
+                                    <span class="text-xs font-bold">in</span>
+                                </div>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/stuart-russell"
+                                class="flex items-center space-x-3 text-sm hover:text-purple-400 transition-colors">
+                                <div class="w-8 h-8 bg-slate-700 rounded-lg flex items-center justify-center">
+                                    <span class="text-xs font-bold">GH</span>
+                                </div>
+                                <span>GitHub</span>
+                            </a>
+                            <!-- <a href="http://stuart-russell.github.io/"
+                class="flex items-center space-x-3 text-sm hover:text-green-400 transition-colors">
+                <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
+                  <span class="text-xs font-bold">WEB</span>
+                </div>
+                <span>Personal Website</span>
+
+                // I'm still working on this, so it's not ready yet
+                // Feel free to check back later!
+              </a> -->
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- partial -->
+        <script src='https://cdn.tailwindcss.com'></script>
+        <script type="text/javascript">
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            sans: ["Inter", "system-ui", "sans-serif"]
+                        }
+                    }
+                }
+            };
+        </script>
+
+    </body>
+
+</html>
